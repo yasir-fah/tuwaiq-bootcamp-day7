@@ -33,7 +33,13 @@ public class day7 {
 
 
         ///question 3:-
-        System.out.println("Input a password (You are agreeing to the above Terms and\n" + "Conditions.):  ");
+        System.out.println("Enter your password: \n1. A password must have at least eight characters.\n" +
+                            "2. A password consists of only letters and digits.\n" +
+                            "3. A password must contain at least two digits\n" +
+                            "Input a password (You are agreeing to the above Terms and" +
+                            "Conditions.):   "
+                        );
+
         String password = input.nextLine();
 
         String check = passCheck(password);
